@@ -384,6 +384,12 @@ input[value="Get Started"]:hover,
   }
 }
 
+@media (max-width: 767px) {
+  #haeder {
+    height: 76px;
+  }
+}
+
 /* End Haeder */
 
 /* Start LandingPage */
