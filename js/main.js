@@ -126,8 +126,8 @@ function startCount(el) {
   }, 2000 / goal);
 }
 
-let portImgs = document.querySelectorAll("#port .imgs > div");
-let titles = document.querySelectorAll("#port .titles > span");
+let portImgs = document.querySelectorAll("#portfolio .imgs > div");
+let titles = document.querySelectorAll("#portfolio .titles > span");
 
 titles.forEach((title) => {
   title.addEventListener("click", () => {
