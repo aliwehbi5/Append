@@ -1402,12 +1402,7 @@ section.padding {
   gap: 60px !important;
   width: 36% !important;
   padding-top: 80px !important;
-  transform: translateY(-30px) !important;
   border: 4px solid var(--red-color);
-  -webkit-transform: translateY(-30px) !important;
-  -moz-transform: translateY(-30px) !important;
-  -ms-transform: translateY(-30px) !important;
-  -o-transform: translateY(-30px) !important;
 }
 
 .mid-plan input,
@@ -1418,6 +1413,16 @@ section.padding {
 
 .mid-plan li {
   font-size: 17px !important;
+}
+
+@media (min-width: 992px) {
+  .mid-plan {
+    transform: translateY(-30px) !important;
+    -webkit-transform: translateY(-30px) !important;
+    -moz-transform: translateY(-30px) !important;
+    -ms-transform: translateY(-30px) !important;
+    -o-transform: translateY(-30px) !important;
+  }
 }
 
 @media (max-width: 991px) {
