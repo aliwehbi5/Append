@@ -74,17 +74,14 @@ function activeHead(scroll) {
     } else {
       header.classList.remove("active-header");
       header.classList.add("normal-header");
-      navBar.style.color = "rgba(255, 255, 255, 0.515)";
       arrow.style.display = "none";
     }
   } else {
     if (scroll === true) {
       header.classList.add("active-header");
-      navBar.style.color = "var(--nav-color)";
       arrow.style.display = "block";
     } else {
       header.classList.remove("active-header");
-      navBar.style.color = "rgba(255, 255, 255, 0.515)";
       arrow.style.display = "none";
     }
   }
