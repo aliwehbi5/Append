@@ -501,7 +501,7 @@ input[value="Get Started"]:hover,
 }
 
 .active-header nav i {
-    color: color: var(--nav-color) !important;
+    color: var(--nav-color) !important;
 }
 
 .active-header {
