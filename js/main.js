@@ -88,7 +88,7 @@ function activeHead(scroll) {
 }
 
 document
-  .querySelectorAll("header .main > li:not(:nth-last-child(2)) > a")
+  .querySelectorAll("#header .main > li:not(:nth-last-child(2)) > a")
   .forEach((a) => {
     a.onclick = () => {
       if (window.innerWidth <= 1199) {
